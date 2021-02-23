@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_66881f2c3bb34da283d9481be55bc5c9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_66881f2c3bb34da283d9481be55bc5c9" ></div>
+        
+</body>
+<script>    
+    
+            var map_66881f2c3bb34da283d9481be55bc5c9 = L.map(
+                "map_66881f2c3bb34da283d9481be55bc5c9",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f42d1d358ee340a9ac55297d6925dd5a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_66881f2c3bb34da283d9481be55bc5c9);
+        
+    
+            var feature_group_f9f0abe8e4a7457ea844fb9d1dc773ba = L.featureGroup(
+                {}
+            ).addTo(map_66881f2c3bb34da283d9481be55bc5c9);
+        
+    
+            var marker_cluster_d5b2fa13e74f4929b22df96358b93039 = L.markerClusterGroup(
+                {}
+            );
+            feature_group_f9f0abe8e4a7457ea844fb9d1dc773ba.addLayer(marker_cluster_d5b2fa13e74f4929b22df96358b93039);
+        
+    
+            var marker_ddc08ceea3104f2199a416b6bb7b9406 = L.marker(
+                [42.6410472, -70.6165149],
+                {}
+            ).addTo(marker_cluster_d5b2fa13e74f4929b22df96358b93039);
+        
+    
+        var popup_8e28e14e0b2b4205b21be4e0db5c5419 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6fae880105345c1be6295e9bb4eae2c = $(`<div id="html_d6fae880105345c1be6295e9bb4eae2c" style="width: 100.0%; height: 100.0%;">Dogecoin Developers</div>`)[0];
+            popup_8e28e14e0b2b4205b21be4e0db5c5419.setContent(html_d6fae880105345c1be6295e9bb4eae2c);
+        
+
+        marker_ddc08ceea3104f2199a416b6bb7b9406.bindPopup(popup_8e28e14e0b2b4205b21be4e0db5c5419)
+        ;
+
+        
+    
+    
+            var marker_d2c69e5e4f28405c8928f358b65f154c = L.marker(
+                [58.5959044, 23.21964608602439],
+                {}
+            ).addTo(marker_cluster_d5b2fa13e74f4929b22df96358b93039);
+        
+    
+        var popup_9a9175461f0b4fbbbf66dc51acbd534b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eae6d36a84254a5794b1f6ec365e4325 = $(`<div id="html_eae6d36a84254a5794b1f6ec365e4325" style="width: 100.0%; height: 100.0%;">Dogecoin</div>`)[0];
+            popup_9a9175461f0b4fbbbf66dc51acbd534b.setContent(html_eae6d36a84254a5794b1f6ec365e4325);
+        
+
+        marker_d2c69e5e4f28405c8928f358b65f154c.bindPopup(popup_9a9175461f0b4fbbbf66dc51acbd534b)
+        ;
+
+        
+    
+    
+            var marker_00580cd334af498e9c4e24cc587ecc78 = L.marker(
+                [37.426540700000004, -122.17029258409187],
+                {}
+            ).addTo(marker_cluster_d5b2fa13e74f4929b22df96358b93039);
+        
+    
+        var popup_db1d7456b21f4bb4aae2e5ce301729ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0cde4face1e419eb4e4183a590e5ebe = $(`<div id="html_a0cde4face1e419eb4e4183a590e5ebe" style="width: 100.0%; height: 100.0%;">Andrej Karpathy</div>`)[0];
+            popup_db1d7456b21f4bb4aae2e5ce301729ce.setContent(html_a0cde4face1e419eb4e4183a590e5ebe);
+        
+
+        marker_00580cd334af498e9c4e24cc587ecc78.bindPopup(popup_db1d7456b21f4bb4aae2e5ce301729ce)
+        ;
+
+        
+    
+    
+            var marker_f6e7a09fe9b34df79a92c38721512d91 = L.marker(
+                [29.5517223, -95.0985272],
+                {}
+            ).addTo(marker_cluster_d5b2fa13e74f4929b22df96358b93039);
+        
+    
+        var popup_e3f32dd3f93d4478aaaf8222d7cc12dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_780a620a0bc148128ce314a124c1394f = $(`<div id="html_780a620a0bc148128ce314a124c1394f" style="width: 100.0%; height: 100.0%;">NOGUCHI, Soichi 野口　聡－（のぐち　そういち）</div>`)[0];
+            popup_e3f32dd3f93d4478aaaf8222d7cc12dd.setContent(html_780a620a0bc148128ce314a124c1394f);
+        
+
+        marker_f6e7a09fe9b34df79a92c38721512d91.bindPopup(popup_e3f32dd3f93d4478aaaf8222d7cc12dd)
+        ;
+
+        
+    
+    
+            var marker_ee228c1bf0b342288b65580577ffa3f6 = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(marker_cluster_d5b2fa13e74f4929b22df96358b93039);
+        
+    
+        var popup_d53d2aeb5b874414a3f3e1396c8fdd62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08868994d1db4ccd85c9d08b3ad24371 = $(`<div id="html_08868994d1db4ccd85c9d08b3ad24371" style="width: 100.0%; height: 100.0%;">Popular Mechanics</div>`)[0];
+            popup_d53d2aeb5b874414a3f3e1396c8fdd62.setContent(html_08868994d1db4ccd85c9d08b3ad24371);
+        
+
+        marker_ee228c1bf0b342288b65580577ffa3f6.bindPopup(popup_d53d2aeb5b874414a3f3e1396c8fdd62)
+        ;
+
+        
+    
+    
+            var marker_a2cc3d6239e745dfab9cb7f7b3693426 = L.marker(
+                [-6.1753942, 106.827183],
+                {}
+            ).addTo(marker_cluster_d5b2fa13e74f4929b22df96358b93039);
+        
+    
+        var popup_a402e5b3d16646acac93ed19b39377e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d77b74a28b141309deafb9da3644f2a = $(`<div id="html_3d77b74a28b141309deafb9da3644f2a" style="width: 100.0%; height: 100.0%;">Nigel Lockyer</div>`)[0];
+            popup_a402e5b3d16646acac93ed19b39377e1.setContent(html_3d77b74a28b141309deafb9da3644f2a);
+        
+
+        marker_a2cc3d6239e745dfab9cb7f7b3693426.bindPopup(popup_a402e5b3d16646acac93ed19b39377e1)
+        ;
+
+        
+    
+    
+            var marker_1eaaa38809cc4ec9bffbf7543d3c0488 = L.marker(
+                [58.5959044, 23.21964608602439],
+                {}
+            ).addTo(marker_cluster_d5b2fa13e74f4929b22df96358b93039);
+        
+    
+        var popup_24ebaa4a2cbc493099b079422ef9b379 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18120d1706ba401e8144ac2236a72199 = $(`<div id="html_18120d1706ba401e8144ac2236a72199" style="width: 100.0%; height: 100.0%;">じゃがりきん</div>`)[0];
+            popup_24ebaa4a2cbc493099b079422ef9b379.setContent(html_18120d1706ba401e8144ac2236a72199);
+        
+
+        marker_1eaaa38809cc4ec9bffbf7543d3c0488.bindPopup(popup_24ebaa4a2cbc493099b079422ef9b379)
+        ;
+
+        
+    
+    
+            var marker_b77f63421d3844508c43a12710e90392 = L.marker(
+                [31.2322758, 121.4692071],
+                {}
+            ).addTo(marker_cluster_d5b2fa13e74f4929b22df96358b93039);
+        
+    
+        var popup_60baca618d1645be87db6abf274ad2e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7bb9a7f63a2645d894569cd0f27db047 = $(`<div id="html_7bb9a7f63a2645d894569cd0f27db047" style="width: 100.0%; height: 100.0%;">Tesla Greater China</div>`)[0];
+            popup_60baca618d1645be87db6abf274ad2e9.setContent(html_7bb9a7f63a2645d894569cd0f27db047);
+        
+
+        marker_b77f63421d3844508c43a12710e90392.bindPopup(popup_60baca618d1645be87db6abf274ad2e9)
+        ;
+
+        
+    
+    
+            var marker_6c631b6e4d184ea0ace38c2464bf448b = L.marker(
+                [51.5073219, -0.1276474],
+                {}
+            ).addTo(marker_cluster_d5b2fa13e74f4929b22df96358b93039);
+        
+    
+        var popup_c126918dc2294dcea3b7d7c7acab71cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e32dd6403eca427ab0a2c515ccc6d748 = $(`<div id="html_e32dd6403eca427ab0a2c515ccc6d748" style="width: 100.0%; height: 100.0%;">DeepMind</div>`)[0];
+            popup_c126918dc2294dcea3b7d7c7acab71cb.setContent(html_e32dd6403eca427ab0a2c515ccc6d748);
+        
+
+        marker_6c631b6e4d184ea0ace38c2464bf448b.bindPopup(popup_c126918dc2294dcea3b7d7c7acab71cb)
+        ;
+
+        
+    
+    
+            var marker_e5283b1d3575443985ea3041aa5947cd = L.marker(
+                [28.58977955, -81.19966950777493],
+                {}
+            ).addTo(marker_cluster_d5b2fa13e74f4929b22df96358b93039);
+        
+    
+        var popup_366e00f61be3408ebd2a5fc874ba0444 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_791e3fa641ae4b0e861c2f7da356b287 = $(`<div id="html_791e3fa641ae4b0e861c2f7da356b287" style="width: 100.0%; height: 100.0%;">Ashlee Vance</div>`)[0];
+            popup_366e00f61be3408ebd2a5fc874ba0444.setContent(html_791e3fa641ae4b0e861c2f7da356b287);
+        
+
+        marker_e5283b1d3575443985ea3041aa5947cd.bindPopup(popup_366e00f61be3408ebd2a5fc874ba0444)
+        ;
+
+        
+    
+    
+            var marker_fb525dec5c8b4221834a4caeaa0cb53a = L.marker(
+                [39.7837304, -100.4458825],
+                {}
+            ).addTo(marker_cluster_d5b2fa13e74f4929b22df96358b93039);
+        
+    
+        var popup_f4bc2ecfca364f2dad3e8caa13006891 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7c8a85971054fe68c5aaa8e0cd621b1 = $(`<div id="html_b7c8a85971054fe68c5aaa8e0cd621b1" style="width: 100.0%; height: 100.0%;">Michael Levitt</div>`)[0];
+            popup_f4bc2ecfca364f2dad3e8caa13006891.setContent(html_b7c8a85971054fe68c5aaa8e0cd621b1);
+        
+
+        marker_fb525dec5c8b4221834a4caeaa0cb53a.bindPopup(popup_f4bc2ecfca364f2dad3e8caa13006891)
+        ;
+
+        
+    
+    
+            var marker_1d486d3a8d8a4314a015f37744846186 = L.marker(
+                [32.7762719, -96.7968559],
+                {}
+            ).addTo(marker_cluster_d5b2fa13e74f4929b22df96358b93039);
+        
+    
+        var popup_b36e2f400ccb4f2caac6887db4d10a67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64a7cf88da614c84814c09ede4a14f99 = $(`<div id="html_64a7cf88da614c84814c09ede4a14f99" style="width: 100.0%; height: 100.0%;">John Carmack</div>`)[0];
+            popup_b36e2f400ccb4f2caac6887db4d10a67.setContent(html_64a7cf88da614c84814c09ede4a14f99);
+        
+
+        marker_1d486d3a8d8a4314a015f37744846186.bindPopup(popup_b36e2f400ccb4f2caac6887db4d10a67)
+        ;
+
+        
+    
+    
+            var marker_eaa5a09118a741189acfb56ab821f595 = L.marker(
+                [51.5073219, -0.1276474],
+                {}
+            ).addTo(marker_cluster_d5b2fa13e74f4929b22df96358b93039);
+        
+    
+        var popup_5c09544310da4a27b9c5871f11667b70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49f37134e0594d07aaff84aaa4929f9e = $(`<div id="html_49f37134e0594d07aaff84aaa4929f9e" style="width: 100.0%; height: 100.0%;">Talulah Riley</div>`)[0];
+            popup_5c09544310da4a27b9c5871f11667b70.setContent(html_49f37134e0594d07aaff84aaa4929f9e);
+        
+
+        marker_eaa5a09118a741189acfb56ab821f595.bindPopup(popup_5c09544310da4a27b9c5871f11667b70)
+        ;
+
+        
+    
+    
+            var marker_cd48e36e4e5f40cb990a8ec17eeecf5f = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(marker_cluster_d5b2fa13e74f4929b22df96358b93039);
+        
+    
+        var popup_6e5a3cf0769d4e2f9c5662a2082d1e7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9814f267d1e94fdea0cf95627565a42e = $(`<div id="html_9814f267d1e94fdea0cf95627565a42e" style="width: 100.0%; height: 100.0%;">Marques Brownlee</div>`)[0];
+            popup_6e5a3cf0769d4e2f9c5662a2082d1e7c.setContent(html_9814f267d1e94fdea0cf95627565a42e);
+        
+
+        marker_cd48e36e4e5f40cb990a8ec17eeecf5f.bindPopup(popup_6e5a3cf0769d4e2f9c5662a2082d1e7c)
+        ;
+
+        
+    
+    
+            var marker_93af727338494938b7e9223217c28d56 = L.marker(
+                [53.5120412, -2.2434612],
+                {}
+            ).addTo(marker_cluster_d5b2fa13e74f4929b22df96358b93039);
+        
+    
+        var popup_947c81cbef00478e9334415f7288e2dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4045ec071e64ddbb497e4d07eda5ccd = $(`<div id="html_d4045ec071e64ddbb497e4d07eda5ccd" style="width: 100.0%; height: 100.0%;">Black Lives Matter</div>`)[0];
+            popup_947c81cbef00478e9334415f7288e2dc.setContent(html_d4045ec071e64ddbb497e4d07eda5ccd);
+        
+
+        marker_93af727338494938b7e9223217c28d56.bindPopup(popup_947c81cbef00478e9334415f7288e2dc)
+        ;
+
+        
+    
+    
+            var layer_control_d73aac47809d405b8b210a925092682c = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_f42d1d358ee340a9ac55297d6925dd5a,
+                },
+                overlays :  {
+                    "Locations" : feature_group_f9f0abe8e4a7457ea844fb9d1dc773ba,
+                },
+            };
+            L.control.layers(
+                layer_control_d73aac47809d405b8b210a925092682c.base_layers,
+                layer_control_d73aac47809d405b8b210a925092682c.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_66881f2c3bb34da283d9481be55bc5c9);
+        
+</script>

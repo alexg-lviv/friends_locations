@@ -3,9 +3,9 @@
 {% block body %}
 <h1><center>Enter the Twitter account name and a Twitter API key</center></h1>
 <center><form action="/register" method="post"></center>
-    <center><input name="username" placeholder="Username" type="text"/></center>
-    <center><input name="bearer_token" placeholder="Twitter BEARER TOKEN" type="text"/></center>
+	<input name="username" placeholder="Username" type="text"/>
+	<input name="token" placeholder="Twitter TOKEN" type="text"/>
 
-    <center><input type="submit" value="Register"/></center>
+	<input type="submit" value="Register"/>
 </form>
 {% endblock %}
